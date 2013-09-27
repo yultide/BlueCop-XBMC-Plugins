@@ -158,8 +158,8 @@ def episodes(url=common.args.url):
                 if len(seasonepisode) == 5:
                     season = int(seasonepisode[:2])
                     episode = int(seasonepisode[-3:])
-			elif len(seasonepisode) == 4:
-			    season = int(seasonepisode[:2])
+                elif len(seasonepisode) == 4:
+                    season = int(seasonepisode[:2])
                     episode = int(seasonepisode[-2:])
                 elif len(seasonepisode) == 3:
                     season = int(seasonepisode[:1])
